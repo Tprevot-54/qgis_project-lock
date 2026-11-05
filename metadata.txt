@@ -1,0 +1,14 @@
+[general]
+name=Verrouillage de projets partagés
+qgisMinimumVersion=3.0
+description=Alerte et protège les projets QGIS ouverts simultanément par plusieurs utilisateurs.
+about=Cette extension crée automatiquement un fichier .lock lors de l'ouverture d'un projet QGIS. Si un second utilisateur ouvre le même projet sur un réseau partagé, l'extension bloque les modifications et la sauvegarde, forçant un mode consultation sécurisé tout en laissant les outils d'analyse et de mesure disponibles.
+version=1.0.0
+author=Theo PREVOT
+email=theo.prevot5454@gmail.com
+experimental=False
+category=Plugins
+tags=lock, multi-user, read-only, project, network
+changelog=1.0.0 : Publication initiale. Implémentation du mode lecture seule stricte via le blocage de l'interface et l'interception des signaux d'écriture.
+tracker=https://github.com
+repository=https://github.com
