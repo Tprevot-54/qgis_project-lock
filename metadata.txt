@@ -14,6 +14,6 @@ tags=lock, multi-user, read-only, project, network
 changelog=1.0.0 : Publication initiale. Implémentation du mode lecture seule stricte via le blocage de l'interface et l'interception des signaux d'écriture.
     1.0.1 : Correction de la déconnexion des signaux dans unload(), mise en conformité des énumérations QGIS (MessageLevel, Icon, StandardButton), migration vers la méthode .exec() moderne et bascule des imports sur qgis.PyQt.
     1.0.2 : Résolution des alertes de sécurité Bandit (B110). Remplacement des blocs d'exceptions vides par une journalisation transparente dans QgsMessageLog.
-homepage=https://github.com
-tracker=https://github.com/issues
-repository=https://github.com
+homepage=https://github.com/Tprevot-54/qgis_project-lock
+tracker=https://github.com/Tprevot-54/qgis_project-lock/issues
+repository=https://github.com/Tprevot-54/qgis_project-lock
